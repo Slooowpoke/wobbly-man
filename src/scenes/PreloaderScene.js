@@ -13,8 +13,6 @@ export default class PreloaderScene extends Phaser.Scene {
             { frameWidth: 64, frameHeight: 32 }
         );
 
-        // this.load.image ('player', 'assets/images/player.png');
-        this.load.image ('nyancat', 'assets/images/nyancat.png');
         this.load.image ('rainbow', 'assets/images/rainbow.png');
         this.load.image ('rock', 'assets/images/rock.png');
         this.load.image ('powerup', 'assets/images/powerup.png');
