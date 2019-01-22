@@ -30,8 +30,6 @@ export default class GameScene extends Phaser.Scene {
             blendMode: 'ADD'
         });
 
-        this.matter.add.sprite (400, 100, 'player');
-
         this.anims.create({
             key: 'wiggle',
             frames: this.anims.generateFrameNumbers('player', { start: 0, end: 3 }),
